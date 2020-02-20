@@ -1,0 +1,33 @@
+{
+    "description": "Web3E (Ethereum Embedded) interface for devices running Arduino with easy to use TokenScript integration.", 
+    "repository": {
+        "url": "https://github.com/AlphaWallet/Web3E", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "espressif32", 
+        "espressif8266"
+    ], 
+    "authors": [
+        {
+            "email": "james.brown@alphawallet.com", 
+            "url": "https://github.com/JamesSmartCell", 
+            "maintainer": true, 
+            "name": "James Brown"
+        }
+    ], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "keywords": [
+        "web3", 
+        "web3e", 
+        "ethereum", 
+        "dapp", 
+        "tokenscript"
+    ], 
+    "name": "Web3E", 
+    "version": "1.03", 
+    "homepage": "https://alphawallet.com", 
+    "id": 5781
+}
