@@ -3,16 +3,16 @@
 #include <Util.h>
 #include <Contract.h>
 
-const char *ssid = "482.solutions 250 2.4G";
-const char *password = "Qazxsw123";
-#define MY_ADDRESS "0xFdF0e4f9C6102a9D55d40a7705d745E5406C113C"      //Put your wallet address here
+const char *ssid = "Qryptos2";
+const char *password = "Morrowind";
+#define MY_ADDRESS "0x[WalletAddress]"      //Put your wallet address here
 #define INFURA_HOST "kovan.infura.io"
-#define INFURA_PATH "/v3/ded67e36d5ee43c4bd42fa26a16d3d69"           //please change this Infura key to your own once you have the sample running
+#define INFURA_PATH "/v3/[Infura Key]"           //please change this Infura key to your own once you have the sample running
 #define TARGETADDRESS "0xD9ba5B381d894956710fAb06e462D59e339Dd244"   //put your second address here
 #define ETHERSCAN_TX "https://kovan.etherscan.io/tx/"
 
 // Copy/paste the private key in here
-#define PRIVATE_KEY "80109acca12a5e51609abbb68a91644a21f554328359070eb252411aa763b7a6" //32 Byte Private key
+#define PRIVATE_KEY "0x[PrivateKey]" //32 Byte Private key
 
 Web3 web3(INFURA_HOST, INFURA_PATH);
 

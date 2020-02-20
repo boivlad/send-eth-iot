@@ -10,11 +10,13 @@
 
 #### ESP32:
 
-2. Open PlatformIO project;
+1. Open PlatformIO project;
 
-3. Choose "send-eth-iot" folder;
+2. Choose "send-eth-iot" folder;
 
-4. Open /src/main.cpp;
+3. Open /src/main.cpp;
+
+4. If you use Linux, you must add permission for USB port ```$ sudo chmod a+rw /dev/ttyUSB0```
 
 5. Press "Upload" button
 
@@ -25,19 +27,22 @@ https://platformio.org/lib/show/5781/Web3E
 ## Infure
 
 1. Sign up in [Infura](https://infura.io/)
+
 2. Create New Project
+
 3. Copy Project Id
 
 ## WiFi
 
-name: Qryptos2
-password: Morrowind
+* name: Qryptos2
+
+* password: Morrowind
 
 ## How to run for debug
 
-1. Build to ESP
+1. Upload to ESP
 2. Wait for "Connect" keyword in terminal
-4. Check transaction in kovan etherscan
+3. Check transaction in kovan etherscan
 
 ## Etherscan
 
