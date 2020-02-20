@@ -16,7 +16,7 @@
 
 3. Open /src/main.cpp;
 
-4. If you use Linux, you must add permission for USB port ```$ sudo chmod a+rw /dev/ttyUSB0```
+4. If you are using Linux, you must allow for the USB port ```$ sudo chmod a+rw /dev/ttyUSB0```
 
 5. Press "Upload" button
 
